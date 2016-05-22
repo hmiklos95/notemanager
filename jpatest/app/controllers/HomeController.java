@@ -33,7 +33,7 @@ public class HomeController extends Controller {
 	
     public Result index() {
 
-
+    	System.out.println("this is a very important feature");
     	return ok(index.render("Your new application is ready."));
     }
 
