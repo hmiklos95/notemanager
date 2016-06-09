@@ -32,7 +32,8 @@ public class HomeController extends Controller {
 	
 	
     public Result index() {
-    	System.out.println("very important message");
+    	System.out.println("another important message");
+    	System.out.println("modified very important message");
     	return ok(index.render("Your new application is ready."));
     }
 
