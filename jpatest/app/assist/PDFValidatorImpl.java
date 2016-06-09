@@ -4,6 +4,9 @@ import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 
+import com.google.inject.Singleton;
+
+@Singleton
 public class PDFValidatorImpl implements PDFValidator {
 	@Override
 	public boolean isValidPDF(File file) {
